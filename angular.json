@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AluzDance:build:production"
+              "buildTarget": "AluzDance:build:production"
             },
             "development": {
-              "browserTarget": "AluzDance:build:development"
+              "buildTarget": "AluzDance:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AluzDance:build"
+            "buildTarget": "AluzDance:build"
           }
         },
         "test": {
